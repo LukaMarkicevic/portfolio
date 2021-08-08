@@ -16,17 +16,15 @@ const Portfolio = ({ data }) => {
                 <div className="portfolio-item-meta">
                   <p>{projects.category}</p>
                 </div>
-                <div style={{textAlign:"center"}}>
-                  <div style={{ color: "white" }}>
+                <div style={{ textAlign: "center" }}>
+                  <div style={{ color: "white", fontWeight: "bold", fontSize: 25 }}>
                     <a href={projects.demo}>DEMO</a>
-                    </div>
-                  <div style={{ color: "white" }}>CODE</div>
+                  </div>
+                  <div style={{ color: "white", fontWeight: "bold", fontSize: 25 }}>
+                    <a href={projects.code}>CODE</a>
+                  </div>
                 </div>
-
               </div>
-              {/* <div className="link-icon">
-                <i className="fa fa-link"></i>
-              </div> */}
             </a>
           </div>
         </div>

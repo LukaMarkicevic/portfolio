@@ -32,10 +32,10 @@ const About = ({ data }) => {
                 <span>
                   {city}, {state}
                 </span>
-                <br />
+                <br/>
                 <span>{phone}</span>
                 <br />
-                <span >{email}</span>
+                <span>{email}</span>
               </p>
             </div>
             <div className="columns download">
@@ -43,9 +43,8 @@ const About = ({ data }) => {
                 <a href={resumeDownload} className="button">
                   Resume
                 </a>
-                <ul className="social">{networks}</ul>
+                <ul>{networks}</ul>
               </p>
-              
             </div>
           </div>
         </div>

@@ -49,6 +49,12 @@
         "image": "higher-lower.jpg",
         "code": "https://github.com/LukaMarkicevic/higher-lower",
         "demo": "https://google.com"
+      },
+      {
+        "title": "Eisenhower Matrix app",
+        "image": "eisenhower.jpg",
+        "code": "https://github.com/LukaMarkicevic/Eisenhower_matrix_todo",
+        "demo": "https://play.google.com/store/apps/details?id=xyz.lukamarkicevic.eisenhowermatrix"
       }
     ]
   }

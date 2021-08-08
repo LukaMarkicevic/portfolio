@@ -52,7 +52,7 @@ const Header = ({ data }) => {
             Luka Markićević
           </h1>
           <h3>
-             <span>Computer Science student in {city}</span>
+             <span style={{fontWeight:"bold"}}>Computer Science student in {city}</span>
           </h3>
           <hr />
           <ul className="social">{networks}</ul>
