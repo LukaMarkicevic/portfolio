@@ -3,8 +3,11 @@ import React, { useEffect, useState } from "react";
 import Header from "./Components/Header";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
+import ReactGA from 'react-ga';
 
 import "./App.css";
+
+
 
 const App = () => {
   const [resumeData, setResumeData] = useState({});
@@ -15,7 +18,13 @@ const App = () => {
       .then((data) => {
         setResumeData(data);
       });
+      initReactGA();
   }, []);
+
+  const initReactGA = () => {
+    ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
+    ReactGA.pageview('main');
+  };
 
   return (
     <div className="App">
