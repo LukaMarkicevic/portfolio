@@ -22,8 +22,7 @@ const App = () => {
   }, []);
 
   const initReactGA = () => {
-    ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS);
-    console.log(process.env.REACT_APP_GOOGLE_ANALYTICS);
+    ReactGA.initialize({ trackingId: process.env.REACT_APP_GOOGLE_ANALYTICS });
     ReactGA.set({ page: window.location.pathname });
     ReactGA.pageview(window.location.pathname);
   };
