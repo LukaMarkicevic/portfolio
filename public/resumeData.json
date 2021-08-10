@@ -35,20 +35,8 @@
       {
         "title": "Portfolio app",
         "image": "portfolio.jpg",
-        "code": "https://google.com",
-        "demo": "https://google.com"
-      },
-      {
-        "title": "Spotify app",
-        "image": "spotify.jpg",
-        "code": "https://google.com",
-        "demo": "https://google.com"
-      },
-      {
-        "title": "Higher-lower app",
-        "image": "higher-lower.jpg",
-        "code": "https://github.com/LukaMarkicevic/higher-lower",
-        "demo": "https://google.com"
+        "code": "https://github.com/LukaMarkicevic/portfolio",
+        "demo": "https://lukamarkicevic.com/"
       },
       {
         "title": "Eisenhower Matrix app",
